@@ -1,0 +1,171 @@
+.testimonial-details-page {
+  margin-top: 120px;
+}
+
+.testimonial-details-page-share-box .share-icon path,
+.testimonial-details-page-share-box .paper-icon {
+  fill: #fff;
+}
+
+.testimonial-details-page-share-box .paper-icon {
+  margin-bottom: 30px;
+}
+
+.testimonial-details-page-share-box .paper-icon path {
+  stroke: #fff;
+}
+
+.testimonial-details-page-go-to-back.testimonial-details-page-go-to-back {
+  padding: 35px 12px;
+}
+
+.testimonial-details-page-go-to-back-link {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ff8ccc;
+  background-image: url(/images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+.testimonial-details-page-go-to-back-link:hover {
+  background-image: url(/images/arrow-left-white.png);
+}
+
+.testimonial-details-image-wrapper {
+  max-width: 100%;
+  background-color: rgba(0, 68, 208, 0.04);
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.testimonial-details-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.testimonial-details-about.testimonial-details-about {
+  margin: 26px 0;
+}
+
+.testimonial-details-info {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 14px;
+  margin-bottom: 36px;
+  display: inline-block;
+}
+
+.testimonial-details-country {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 14px;
+  margin-left: 15px;
+}
+
+.testimonial-details-country:before {
+  content: "•";
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.testimonial-details-social-links {
+  margin-bottom: 90px;
+}
+
+.testimonial-details-content {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 26px;
+  font-weight: 400;
+}
+
+.testimonial-details-content-image {
+  max-width: 100%;
+}
+
+.testimonial-details-content h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.testimonial-details-content ul,
+.testimonial-details-content p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  margin: 30px 0;
+  color: #afafaf;
+}
+
+.testimonial-details-content ul {
+  margin-left: 20px;
+}
+
+.testimonial-details-content ul li {
+  list-style: square;
+}
+
+.testimonial-details-content img {
+  max-width: 100px;
+}
+
+.testimonial-details-content blockquote {
+  margin: 40px;
+}
+
+.testimonial-details-content blockquote p {
+  display: inline;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 10px;
+  font-style: italic;
+  text-align: left;
+}
+
+.testimonial-details-content blockquote:before {
+  content: "“";
+  position: absolute;
+}
+
+.testimonial-details-content blockquote:after {
+  content: "”";
+  position: absolute;
+  margin-left: 5px;
+}
+
+.testimonial-details-page-go-to-back-link:hover,
+.testimonial-details-page-content,
+.testimonial-details-page-share-box .paper-icon,
+.testimonial-details-content blockquote p {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonial-details-content blockquote p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .testimonial-details-content blockquote {
+    margin: 20px;
+  }
+}

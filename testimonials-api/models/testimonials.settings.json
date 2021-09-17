@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "name": "testimonials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "quote": {
+      "type": "text"
+    },
+    "is_success_story": {
+      "type": "boolean",
+      "default": false
+    },
+    "testimonial_user": {
+      "model": "testimonial-users"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
